@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+#gameCanvas{
+    border: 2px solid #666;
+}
+#score{
+    display: inline-block;
+    margin: 10px;
+}
