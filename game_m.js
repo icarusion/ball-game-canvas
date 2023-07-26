@@ -103,7 +103,7 @@ window.onload = function() {
             } else if (ball.ballType === 'danger') {
                 clearInterval(safeInterval);
                 clearInterval(dangerInterval);
-                window.cancelRequestAnimationFrame(anmiRequest);
+                window.cancelAnimationFrame(anmiRequest);
                 // 保存最高分
                 var highScore = parseInt(localStorage.getItem('highScore'));
                 if (score > highScore) {
